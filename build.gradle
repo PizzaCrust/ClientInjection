@@ -1,0 +1,12 @@
+group 'net.pizzacrust'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('libs/PizzaMixin-1.0-SNAPSHOT.jar')
+}

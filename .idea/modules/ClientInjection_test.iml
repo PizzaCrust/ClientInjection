@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ClientInjection:test" external.linked.project.path="$MCP_LOC$/eclipse/ClientInjection" external.root.project.path="$MCP_LOC$/eclipse/ClientInjection" external.system.id="GRADLE" external.system.module.group="net.pizzacrust" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output-test url="file://$MCP_LOC$/eclipse/ClientInjection/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MCP_LOC$/eclipse/ClientInjection/src/test">
+      <sourceFolder url="file://$MCP_LOC$/eclipse/ClientInjection/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MCP_LOC$/eclipse/ClientInjection/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ClientInjection_main" />
+  </component>
+  <component name="TestModuleProperties" production-module="ClientInjection_main" />
+</module>
