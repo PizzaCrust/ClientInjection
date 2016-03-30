@@ -10,6 +10,13 @@ import net.pizzacrust.mixin.Mixin;
  */
 @Mixin(InjectionAgent.MINECRAFT_CLASS_MAPPING)
 public class MinecraftMixin {
+
+    /**
+     * Allows for the creation of this Mixin from the MixinAgent.
+     * @param obj something...
+     */
+    public MinecraftMixin(Object obj) {}
+
     /**
      * Declares the startGame method here, as a method injection.
      */
