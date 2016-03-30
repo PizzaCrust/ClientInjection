@@ -17,7 +17,7 @@ public class MinecraftMixin {
     /**
      * The startGame method with a obfuscated name.
      */
-    public static void an() {
+    public void an() {
         System.out.println("ClientInjection > Injection has injected to the client successfully!");
     }
 }
